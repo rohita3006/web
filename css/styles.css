@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #3f3f44;
+}
+h1{
+  font-size: 5.625rem;
+  color: #f76a8c;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  color: #f76a8c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  color: #efa8e4;
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  color: #ff2e63;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border-style: dotted none none none;
+  border-color: #EAF6F6;
+  border-width: 6px;
+  width: 4%;
+  margin: 100px auto;
+}
+.top{
+  background-color: #fde2e2;
+  position: relative;
+  padding: 100px;
+}
+.middle-container{
+  margin: 100px 0;
+}
+.bottom-container{
+background-color: #fde2e2;
+padding: 50px 0 20px;
+}
+.top-cloud{
+  position: absolute;
+  top: 40px;
+  right: 400px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 350px;
+  bottom: 400px;
+}
+.skill-row{
+  width: 50%;
+  text-align: left;
+  margin: 100px auto 100px auto;
+}
+.pro{
+  text-decoration: underline;
+}
+.basketball{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.coding{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copyright{
+  color: #323232;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.btn {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
